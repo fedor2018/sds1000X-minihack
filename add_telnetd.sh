@@ -16,4 +16,10 @@ echo "#!/bin/sh
 sleep 15
 
 telnetd -l /bin/sh &
+
+mount -o remount,rw /usr/bin/siglent
+ln -s /usr/bin/siglent/usr/www  /usr/bin/siglent/config/www
+mount -o remount,ro /usr/bin/siglent
+/etc/init.d/lighttpd start
+
 " >sds1000b.app
