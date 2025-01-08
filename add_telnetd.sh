@@ -14,11 +14,13 @@ echo "#!/bin/sh
 /usr/bin/siglent/sds1000b.app_&
 
 sleep 15
+# telnet
 # w/o password
-#telnetd -l /bin/sh &
+#telnetd -l /bin/sh -p9999&
 #root:siglent_sds1000x_e
 telnetd&
 #
+# webui
 mount -o remount,rw /usr/bin/siglent
 ln -s /usr/bin/siglent/usr/www  /usr/bin/siglent/config/www
 mount -o remount,ro /usr/bin/siglent
