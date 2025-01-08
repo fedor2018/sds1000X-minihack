@@ -46,4 +46,8 @@ Cons:
 - снятие гарантии производителя
 ```
 
+# WEB UI
+<img src="img/welcome.PNG" width=500 alt="">
+<img src="img/control_panel.PNG" width=500 alt="">
+<img src="img/scpi.PNG" width=500 alt="">
 
