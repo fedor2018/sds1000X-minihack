@@ -38,7 +38,7 @@ linuxrc-+-ash---pstree
 <img src="img/after.jpg" width=200 alt="system status">
 
 ```
-Pro:
+Pros:
 - локализация
 - запуск telnetd и lighttpd
 - можно снять все дампы
